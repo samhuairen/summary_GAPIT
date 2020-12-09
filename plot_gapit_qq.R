@@ -2,7 +2,7 @@
 library(optparse)
 library(ggplot2)
 library(hexbin)
-option_list = list(make_option(c("-i","--input"), help="the raw GAPIT result file,multiple files must be in a vector"),
+option_list = list(make_option(c("-i","--input"), help="the raw GAPIT result file,multiple files must be separated by comma"),
                    make_option(c("-o","--output"), help = "the output picture name"),
                    make_option(c("-w","--width"), help="the width of out picture",default = 8.95),
                    make_option(c("-l","--height"), help = "the height of out picture",default = 3.34),
